@@ -125,6 +125,32 @@ button {
     background-color: #a1a1a1;
 }
 
+/* Botón para reiniciar la lista */
+.button-reset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 40px;
+    margin-top: 10px;
+    background-color: #d9534f; 
+    color: var(--color-white);
+    font-size: 16px;
+    border: 2px solid #000;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button-reset:hover {
+    background-color: #c9302c; 
+}
+
+.button-reset:active {
+    transform: scale(0.95);
+}
+
 /* Listas */
 ul {
     list-style-type: none;
